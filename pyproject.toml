@@ -1,0 +1,30 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "autostair"
+version = "0.1.0"
+description = "Benchmark flat chunk RAG against retrieval using an existing document index."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+dependencies = [
+  "faiss-cpu>=1.9,<2",
+  "groq>=0.31,<1",
+  "numpy>=1.26,<3",
+  "pandas>=2.2,<3",
+  "plotly>=5.24,<7",
+  "pymupdf>=1.24,<2",
+  "python-dotenv>=1.0,<2",
+  "pyyaml>=6.0,<7",
+  "sentence-transformers>=3.3,<6",
+  "streamlit>=1.41,<2",
+]
+
+[project.scripts]
+autostair = "autostair.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/autostair"]
+

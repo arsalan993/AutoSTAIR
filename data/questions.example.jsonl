@@ -1,0 +1,2 @@
+{"question_id":"example-001","question":"Replace this with a verified question from the document.","gold_section_ids":["sec-0001"],"reference_answer":"Replace with a human-checked reference answer.","answerable":true,"question_type":"direct_fact","annotation_notes":"Example schema only; do not include in reported results."}
+

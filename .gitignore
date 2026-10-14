@@ -1,0 +1,16 @@
+.env
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.DS_Store
+artifacts/*
+!artifacts/results/
+artifacts/results/*
+!artifacts/results/summary.csv
+!artifacts/results/manual_judgments.json
+data/source/
+data/private/
+tmp/
+share/site/*.tar.gz
