@@ -209,6 +209,9 @@ def page10(c):
 def main():
     OUT.parent.mkdir(parents=True, exist_ok=True)
     c = canvas.Canvas(str(OUT), pagesize=(W, H), pageCompression=1)
+    c.setTitle("AutoSTAIR LinkedIn Carousel")
+    c.setAuthor("Arsalan Ahmed")
+    c.setSubject("A controlled benchmark of flat and index-guided retrieval-augmented generation")
     for page in (page1,page2,page3,page4,page5,page6,page7,page8,page9,page10):
         page(c); c.showPage()
     c.save()
