@@ -19,7 +19,7 @@ My main takeaway: document structure is a useful routing signal, but a hard deci
 
 This was a small case study, so I see it as evidence for the next experiment rather than a universal conclusion. The project includes the Streamlit interface, retrieval data, evaluation output, and the full methodology.
 
-Code: {{GITHUB_URL}}
+Code: https://github.com/arsalan993/AutoSTAIR
 Project report: https://autostair-rag-benchmark.handywolf1.chatgpt.site
 
 #RAG #GenerativeAI #InformationRetrieval #LLM #MachineLearning #AIEngineering
