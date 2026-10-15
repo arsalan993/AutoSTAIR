@@ -1,10 +1,12 @@
 # AutoSTAIR
 
-**Published project report:** https://autostair-rag-benchmark.handywolf1.chatgpt.site
+**Published benchmark dashboard:** https://autostair-rag-benchmark.handywolf1.chatgpt.site
 
 **GitHub repository:** https://github.com/arsalan993/AutoSTAIR
 
-The LinkedIn carousel and post draft are in `output/pdf/` and `share/`.
+The dashboard includes the retrieval results, all 20 answer comparisons, manual judgments,
+and searchable views of both retrieval datasets. The LinkedIn carousel and post draft are
+in `output/pdf/` and `share/`.
 
 AutoSTAIR is a resource-light RAG benchmark comparing fixed-size chunk retrieval
 with two-stage retrieval through a document's existing table of contents. It does
